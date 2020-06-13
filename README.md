@@ -1,8 +1,8 @@
 # Wanderlinker Backend
 
-## Draft sketching the API
+## frist blueprint of the API
 
-/infections
+### /infections
 - Create, Read, Update, Delete
 
 Get from [COVID-19-API](https://covid19api.com/) and [docu](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest)
@@ -28,7 +28,7 @@ Get from [COVID-19-API](https://covid19api.com/) and [docu](https://documenter.g
 ``` 
 
 
-/crowds
+### /crowds
 - Create, Read, Update, Delete
 /treasures
 - Create, Read, Update, Delete
@@ -51,7 +51,7 @@ Get from [COVID-19-API](https://covid19api.com/) and [docu](https://documenter.g
   },
 ``` 
 
-/activites
+### /activites
 - Create, Read, Update, Delete
 
 ``` json
@@ -82,7 +82,7 @@ Get from [COVID-19-API](https://covid19api.com/) and [docu](https://documenter.g
 ``` 
 
 
-/event
+### /event
 - Create, Read, Update, Delete
 
 ``` json
@@ -112,5 +112,5 @@ Get from [COVID-19-API](https://covid19api.com/) and [docu](https://documenter.g
   },
 ``` 
 
-/locations
+### /locations
 - Create, Read, Update, Delete
