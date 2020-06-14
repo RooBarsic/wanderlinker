@@ -42,7 +42,7 @@ To make the app more fun to use we need to setup rewards, powerups, funCoins and
 ``` 
 
 Entity for PostgresSQL
-SERIAL = AUTO_INCREMENTE with INTs
+SERIAL = AUTO_INCREMENT with INTs
 
 ```sql
   CREATE TABLE treasures (
@@ -51,7 +51,6 @@ SERIAL = AUTO_INCREMENTE with INTs
     img_url TEXT,
     treasure_category int,
     user_likes int,
-    awards int,
     level_points_to_add int,
     latitude TEXT,
     longitude TEXT,
