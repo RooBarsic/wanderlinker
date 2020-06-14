@@ -259,11 +259,11 @@ via email
     "officialName": "the Russian Federation",
     "capital": "Moscow",
     "currencyName": "Russian Ruble",
-    "totalConfirmed": 0,
-    "totalDeaths": 0,
-    "totalRecovered": 0,
-    "totalActive": 0,
-    "lastUpdate": "2020-01-01",
+    "totalConfirmed": 519458,
+    "totalDeaths": 6819,
+    "totalRecovered": 274128,
+    "totalActive": 238511,
+    "lastUpdate": "2020-06-14",
     "iso2": "RU",
     "iso3": "RUS"
 }
