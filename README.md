@@ -191,7 +191,53 @@ Integrate for
 ## /recoverpasword
 via email
 
+# COVID-19 REST API
+#### To get information about all countries use:
+    /countries/all
 
+#### To get information about exactly country use:
+    /countries/getCountry?
+    
+##### as a parameter you can use :
+    id - to get country info by ID
+    name - to get country info by country name
+    capital - to get country info by country capital
+    iso2 - to get country info by ISO2 code of country 
+    iso3 - to get country info by ISO3 code of country 
+
+#### as a result you will get such information about the country :
+    name - name of country
+    officialName - the officail name of the country
+    capital - name of the capital of the country 
+    iso2 - ISO2 code of the country
+    iso3 - ISO3 code of the country
+    currencyName - local currency name
+    totalConfirmed - number of total confirmed cases of COVID-19
+    totalDeaths - number of total confirmed deaths cases of COVID-19
+    totalRecovered - number of total confirmed recovered cases of COVID-19
+    totalActive - number of total confirmed active patients of COVID-19
+    lastUpdate - date last updated information about COVID-19 situation in this country
+
+### Some examples
+    /countries/getCountry?name=Russia
+    
+``` json
+{
+    "id": 182,
+    "name": "Russia",
+    "officialName": "the Russian Federation",
+    "capital": "Moscow",
+    "currencyName": "Russian Ruble",
+    "totalConfirmed": 0,
+    "totalDeaths": 0,
+    "totalRecovered": 0,
+    "totalActive": 0,
+    "lastUpdate": "2020-01-01",
+    "iso2": "RU",
+    "iso3": "RUS"
+}
+``` 
+    
 # ER-Diagram
 Suggest to use a SQL-Model:
 
